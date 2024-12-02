@@ -11,9 +11,11 @@ function Footer () {
         <p>Ready to bring your ideas to life!</p>
         <div className="footer-intro">
             <img src={Logo} alt="logo" />
-            <div>         
+            <div> 
             <IonIcon className="footer-icon" name="logo-github" />
-            <IonIcon className="footer-icon" name="logo-linkedin" />
+                <a href="https://www.linkedin.com/in/nancy-wuz/">
+                <IonIcon className="footer-icon" name="logo-linkedin" />
+                </a>        
             <IonIcon className="footer-icon" name="mail-outline" />
             </div>
             <p>All rights Reserved @ 2024 Nancy Wu</p>
