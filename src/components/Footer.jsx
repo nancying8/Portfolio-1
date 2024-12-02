@@ -12,7 +12,9 @@ function Footer () {
         <div className="footer-intro">
             <img src={Logo} alt="logo" />
             <div> 
-            <IonIcon className="footer-icon" name="logo-github" />
+                <a href="https://github.com/nancying8">
+                <IonIcon className="footer-icon" name="logo-github" />
+                </a>
                 <a href="https://www.linkedin.com/in/nancy-wuz/">
                 <IonIcon className="footer-icon" name="logo-linkedin" />
                 </a>        
