@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "image": "src/assets/blenzPoster.jpg",
+      "alt": "Blenz Poster",
+      "animation": "fade-down-left"
+    },
+    {
+      "id": 2,
+      "image": "src/assets/kinemiWeb.jpg",
+      "alt": "Kinemi Web",
+      "animation": "fade-down-right"
+    },
+    {
+      "id": 3,
+      "image": "src/assets/businessCard.jpg",
+      "alt": "Business Card",
+      "animation": "fade-down-left"
+    },
+    {
+      "id": 4,
+      "image": "src/assets/summerPoster.jpg",
+      "alt": "Summer Poster",
+      "animation": "fade-down-right"
+    }
+  ]
+  
