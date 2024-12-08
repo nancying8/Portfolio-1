@@ -7,7 +7,7 @@ function Footer () {
     return (
        <div className="footer">
         <hr />
-        <h2>Let's Talk</h2>
+        <h2>Let's grab some pasta!</h2>
         <p>Ready to bring your ideas to life!</p>
         <div className="footer-intro">
             <img src={Logo} alt="logo" />
