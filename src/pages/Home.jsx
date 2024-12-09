@@ -1,11 +1,14 @@
 import React  from "react"; // Import React to use JSX
-import Banner from "../components/Banner"; // Importing the Banner component to display the banner section
 import { Link } from "react-router-dom"; // Importing Link from react-router-dom for navigation
+import Banner from "../components/Banner"; // Importing the Banner component to display the banner section
+import Intro from "../components/Intro";
 import WaveTitle from "../components/WaveTitle"; // Importing the WaveTitle component for animated titles
 // import DetailCard from "../components/DetailCard"; 
 // Importing the DetailCard component to display project details
 import IonIcon from "@reacticons/ionicons"; // Importing IonIcon for icon usage
 import { motion } from "framer-motion"; // Importing motion for animations
+
+
 
 function Home() {
   
