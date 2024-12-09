@@ -2,7 +2,8 @@ import React  from "react"; // Import React to use JSX
 import Banner from "../components/Banner"; // Importing the Banner component to display the banner section
 import { Link } from "react-router-dom"; // Importing Link from react-router-dom for navigation
 import WaveTitle from "../components/WaveTitle"; // Importing the WaveTitle component for animated titles
-import DetailCard from "../components/DetailCard"; // Importing the DetailCard component to display project details
+// import DetailCard from "../components/DetailCard"; 
+// Importing the DetailCard component to display project details
 import IonIcon from "@reacticons/ionicons"; // Importing IonIcon for icon usage
 import { motion } from "framer-motion"; // Importing motion for animations
 
@@ -27,7 +28,7 @@ function Home() {
         <WaveTitle text="My Works" speed={150} />
         <h3>2024</h3>
         </div>
-        <DetailCard />
+        {/* <DetailCard /> */}
         <div className="sub-button">
         <Link 
           to="/projects" 
