@@ -11,7 +11,7 @@ function Banner () {
             <div className="banner">
                 <h1 className="bannerTitle">Hello</h1> 
             <div className="flip">
-                <div><div>Nancy Wu!</div></div>
+                <div><div>Nancy Wu</div></div>
                 <div><div>am</div></div>
                 <div><div>I</div></div>
             </div>
