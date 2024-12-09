@@ -5,6 +5,8 @@ import AOS from "aos"; // Import AOS library for scroll animations
 import "aos/dist/aos.css"; // Import the AOS styles
 import CardInfo from "../data/CardInfo.json" // Importing project data from the JSON file
 
+
+
 function HomeCard() {
   // Initialize AOS when the component is mounted
   useEffect(() => {
