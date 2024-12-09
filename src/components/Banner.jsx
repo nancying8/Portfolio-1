@@ -8,7 +8,7 @@ function Banner () {
     return(
         <div>
         <BackGroundAnimation />
-            <div className="banner">
+            <div>
                 <h1 className="bannerTitle">Hello</h1> 
             <div className="flip">
                 <div><div>Nancy Wu</div></div>
