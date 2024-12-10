@@ -1,25 +1,25 @@
 [
     {
       "id": 1,
-      "image": "https://res-console.cloudinary.com/du7l1kfwn/media_explorer_thumbnails/cd7706ff53ab4ee12df999968f9f934f/detailed",
+      "image": "https://res.cloudinary.com/du7l1kfwn/image/upload/f_auto,q_auto/olb9sebttbzeatdblecw",
       "alt": "Blenz Poster",
       "animation": "fade-down-left"
     },
     {
       "id": 2,
-      "image": "https://res-console.cloudinary.com/du7l1kfwn/media_explorer_thumbnails/4faa3680ad52905c28877d117b8bb08e/detailed",
+      "image": "https://res.cloudinary.com/du7l1kfwn/image/upload/f_auto,q_auto/okmv4ro3gan47xgzn3sj",
       "alt": "Kinemi Web",
       "animation": "fade-down-right"
     },
     {
       "id": 3,
-      "image": "https://res-console.cloudinary.com/du7l1kfwn/media_explorer_thumbnails/1368c86ba25b7ddfb9d6201a5ea3e984/detailed",
+      "image": "https://res.cloudinary.com/du7l1kfwn/image/upload/f_auto,q_auto/VIOLETCARD",
       "alt": "Business Card",
       "animation": "fade-down-left"
     },
     {
       "id": 4,
-      "image": "https://res-console.cloudinary.com/du7l1kfwn/media_explorer_thumbnails/a7407167b3cf913ed17e3ef0bf64e386/detailed",
+      "image": "https://res.cloudinary.com/du7l1kfwn/image/upload/f_auto,q_auto/tk5el1j0t17m5jo3ex6n",
       "alt": "Summer Poster",
       "animation": "fade-down-right"
     }
