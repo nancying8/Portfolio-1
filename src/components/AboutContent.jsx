@@ -1,5 +1,5 @@
 import React from "react"; // Import React to use JSX
-import Photo from "public/assets/photo.jpg";
+import Photo from "../assets/photo.jpg";
 import AboutInfo from "../data/AboutInfo.json" // Importing project data from the JSON file
 
 function AboutContent () {
