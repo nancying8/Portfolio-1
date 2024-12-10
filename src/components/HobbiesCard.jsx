@@ -1,8 +1,8 @@
 import React from "react"; // Import React to use JSX
 import IonIcon from "@reacticons/ionicons"; // Import IonIcon for icons
-import Flower from "../assets/flower.jpg"; // Import image of flower (Nature hobby)
-import Food from "../assets/food.jpg"; // Import image of food (Foodie hobby)
-import Hiking from "../assets/hiking.png"; // Import image of hiking (Hiking hobby)
+import Flower from "../public/assets/flower.jpg"; // Import image of flower (Nature hobby)
+import Food from "../public/assets/food.jpg"; // Import image of food (Foodie hobby)
+import Hiking from "../public/assets/hiking.png"; // Import image of hiking (Hiking hobby)
 
 // .hoobiesCard wraps the entire hobbies section 
 

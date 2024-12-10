@@ -1,7 +1,6 @@
 import React  from "react"; // Import React to use JSX
 import { Link } from "react-router-dom"; // Importing Link from react-router-dom for navigation
-// import Banner from "../components/Banner"; 
-// Importing the Banner component to display the banner section
+import Banner from "../components/Banner"; // Importing the Banner component to display the banner section
 // import Intro from "../components/Intro";
 import WaveTitle from "../components/WaveTitle"; // Importing the WaveTitle component for animated titles
 // import DetailCard from "../components/DetailCard"; 
