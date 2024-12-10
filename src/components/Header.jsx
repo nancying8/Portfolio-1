@@ -1,6 +1,6 @@
 import React, { useState } from "react"; // Import React and useState hook
 import { Link } from "react-router-dom"; // Import Link for navigation
-import Logo from "/src/assets/logo.svg"; // Import logo image
+import Logo from "/public/assets/logo.svg"; // Import logo image
 
 function Header() {
   // State to track the menu open/close
