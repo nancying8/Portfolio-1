@@ -3,6 +3,10 @@ import IonIcon from "@reacticons/ionicons"; // Import IonIcon for icons
 import Flower from "/src/assets/flower.jpg"; // Import image of flower (Nature hobby)
 import Food from "/src/assets/food.jpg"; // Import image of food (Foodie hobby)
 import Hiking from "/src/assets/hiking.png"; // Import image of hiking (Hiking hobby)
+import { FaCameraRetro } from "react-icons/fa";
+import { GiHiking } from "react-icons/gi";
+import { MdFoodBank } from "react-icons/md";
+
 
 // .hoobiesCard wraps the entire hobbies section 
 
@@ -11,8 +15,15 @@ function HobbiesCard() {
 
     <div>
 
+
     <div className="hobbies">
         <h2>My Hobbies</h2>
+        <div className="hoobies-icon">
+        <FaCameraRetro />
+        <GiHiking />
+        <MdFoodBank />
+
+        </div>
         <p>Showcases my photography skills through my hobbies</p>
 
         <div className="hobby-intro">

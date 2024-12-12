@@ -139,6 +139,14 @@
  
 }
 
+.hoobies-icon {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  color: var(--lightPurple);
+  font-size: 3rem;
+}
+
 /* about-hobbies */
 .hobbies h2 {
   font-size: 2rem;

@@ -11,7 +11,7 @@ function AboutContent () {
         <div>
             <div className="about-content">
                 <div className="about-intro">
-                    <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/IMG_0415_o4my4c.heic" />
+                    <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1734031644/Screenshot_2024-12-12_at_11.26.57_AM_wxb83e.png" />
                     <div className="about-text">
                         <h1>Hi , I am Nancy</h1>
                         <p> I am currenntly studend at BCIT in New Media design. I’m enhancing my skills at my course. I have been working with customer service for over 10 years, which bringing my core values of integrity, responsibility, and perseverance to every project. Beyond design, 
