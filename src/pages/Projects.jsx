@@ -19,7 +19,7 @@ function Projects () {
     return (
         <div>
             <div className="projects-intro">
-                <WaveTitle className="title" text="My Projects" speed={150} />
+                <WaveTitle className="title" text="My Projects" speed={149} />
                     <p> My creative works with graphic design and UI/ UX skills</p>
             </div>
                 <div className="ion-arrow-container">
@@ -37,6 +37,7 @@ function Projects () {
                         tools={card.tools}
                         design={card.design}
                         />
+
                     ))}
             </div>
         </div>
