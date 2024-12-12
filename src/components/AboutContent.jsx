@@ -27,15 +27,15 @@ function AboutContent () {
 
             <h2 className="skill-title"> My Skills </h2>
             <div className="skills-container">
-            <SiAdobephotoshop  />
-            <SiAdobeillustrator />
-            <SiAdobeindesign />
-            <SiAdobepremierepro />
-            <SiHtml5 />
-            <SiCss3 />
-            <SiTailwindcss />
-            <SiFigma />
-            <SiReact />
+            <SiAdobephotoshop className="iconSkill"  />
+            <SiAdobeillustrator className="iconSkill" />
+            <SiAdobeindesign className="iconSkill" />
+            <SiAdobepremierepro className="iconSkill" />
+            <SiHtml5 className="iconSkill" />
+            <SiCss3 className="iconSkill" />
+            <SiTailwindcss className="iconSkill" />
+            <SiFigma className="iconSkill" />
+            <SiReact className="iconSkill" />
             </div>
 
             <hr className='divider' />

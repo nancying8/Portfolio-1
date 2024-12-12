@@ -18,21 +18,21 @@ function HobbiesCard() {
         <div className="hobby-intro2">
         <div className="hobby-card">
             <IonIcon className="icon-pin" name="pin-outline" />
-            <h3>Empire Tower NY</h3>
+            <h3>NY - Rockefeller Center</h3>
             <div className="image-wrapper">
             <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1733996244/IMG_8780_rkxgix.jpg" alt="Photography" />
             </div>
         </div>
         <div className="hobby-card">
             <IonIcon className="icon-pin" name="pin-outline" />
-            <h3>Quebec- Wheels</h3>
+            <h3>Montreal - La Grande Roue de Montréal</h3>
             <div className="image-wrapper">
             <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1733996240/IMG_9121_xb0trl.jpg" alt="Foodie" />
             </div>
         </div>
         <div className="hobby-card">
             <IonIcon className="icon-pin" name="pin-outline" />
-            <h3>Ottawa- Parlament </h3>
+            <h3>Ottawa - Parlament </h3>
             <div className="image-wrapper">
             <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1733996240/IMG_8968_ssnx5a.jpg" alt="Hiking" />
             </div>
@@ -55,7 +55,7 @@ function HobbiesCard() {
         </div>
         <div className="hobby-card">
             <IonIcon className="icon-pin" name="pin-outline" />
-            <h3>Squamish Trail</h3>
+            <h3>Squamish - Third Peak</h3>
             <div className="image-wrapper">
             <img src={Hiking} alt="Hiking" />
             </div>

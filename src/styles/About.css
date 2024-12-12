@@ -133,6 +133,13 @@
   margin: 5rem 0;
 }
 
+.iconSkill:hover {
+  color: var(--black);
+  transform: scale(1.1);
+  box-shadow: var(--boxShadow);
+
+
+}
 
 /* about-hobbies */
 .hobbies h2 {

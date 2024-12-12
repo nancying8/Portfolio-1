@@ -8,6 +8,10 @@ import "../styles/About.css";
 function About () {
     return (
         <section>
+            <div className="projects-intro">
+                <WaveTitle className="title" text="About Me" speed={149} />
+                    <p> My creative works with graphic design and UI/ UX skills</p>
+            </div>
             <AboutContent /> 
             <HobbiesCard/>
 
