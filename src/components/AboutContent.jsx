@@ -1,6 +1,7 @@
 import React from "react"; // Import React to use JSX
-import Photo from "../assets/photo.jpg";
+import Photo from "/src/assets/logo.svg";
 import AboutInfo from "../data/AboutInfo.json" // Importing project data from the JSON file
+import { SiAdobephotoshop, SiAdobeillustrator, SiAdobeindesign, SiAdobepremierepro, SiHtml5, SiCss3, SiTailwindcss, SiFigma, SiReact } from "react-icons/si";
 
 function AboutContent () {
 
@@ -21,15 +22,26 @@ function AboutContent () {
                     </div>
                 </div>
             </div>
+
+            <hr className='divider' />
+
             <h2 className="skill-title"> My Skills </h2>
             <div className="skills-container">
-                {AboutInfo.map((item, index) => (
-                    <div key={index} className="skill-item">
-                    <img src={item.skill} alt={`Skill ${index}`} className="skill-image" />
-                    </div>
-                    ))}
+            <SiAdobephotoshop  />
+            <SiAdobeillustrator />
+            <SiAdobeindesign />
+            <SiAdobepremierepro />
+            <SiHtml5 />
+            <SiCss3 />
+            <SiTailwindcss />
+            <SiFigma />
+            <SiReact />
             </div>
+
+            <hr className='divider' />
+
         </div>
+            
     )
 }
 

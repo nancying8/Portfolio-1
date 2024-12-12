@@ -3,6 +3,7 @@ import ProjectInfo from "../data/ProjectInfo.json"; // Importing project data fr
 import ProjectCard from "../components/ProjectCard"; // Importing ProjectCard component to display individual project details
 import IonIcon from "@reacticons/ionicons"; // Importing IonIcon for arrow icons
 import WaveTitle from "../components/WaveTitle"; // Importing WaveTitle component for animated titles
+import "../styles/Project.css";
 
 function Projects () {
 

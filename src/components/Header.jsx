@@ -1,6 +1,7 @@
 import React, { useState } from "react"; // Import React and useState hook
 import { Link } from "react-router-dom"; // Import Link for navigation
 import Logo from "/src/assets/logo.svg"; // Import logo image
+import "../styles/Header.css"
 
 function Header() {
   // State to track the menu open/close
@@ -33,18 +34,18 @@ function Header() {
         
         {/* Navbar links */}
         <ul className={`nav-link ${isOpen ? "active" : ""}`}>
-          <li>
-            <Link to="/" onClick={closeMenu}>
+          <li className="list-none inline-block mr-4 justify-start text-black cursor-pointer">
+            <Link className="rounded-md p-2.5 text-black hover:bg-black hover:text-white" to="/" onClick={closeMenu}>
               Home
             </Link>
           </li>
-          <li>
-            <Link to="/projects" onClick={closeMenu}>
+          <li className="list-none inline-block mr-4 justify-start text-black cursor-pointer">
+            <Link className="rounded-md p-2.5 text-black hover:bg-black hover:text-white" to="/projects" onClick={closeMenu}>
               Projects
             </Link>
           </li>
-          <li>
-            <Link to="/about" onClick={closeMenu}>
+          <li className="list-none inline-block mr-4 justify-start text-black cursor-pointer">
+            <Link className="rounded-md p-2.5 text-black hover:bg-black hover:text-white" to="/about" onClick={closeMenu}>
               About
             </Link>
           </li>

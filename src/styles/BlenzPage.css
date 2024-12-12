@@ -1,0 +1,275 @@
+:root {
+  --title: "Gentium Book Plus", serif;
+  --text: "Oxygen", serif;
+  --bold: 600;
+  --lightPurple:#8349a9;
+  --purple: #65268F;
+  --lilac: #c196de;
+  --darkPurple: #4b1271;
+  --black: #0e0220;
+  --radius: 1.25rem;
+  --boxShadow: -1px 15px 30px -12px #4b1271 ;
+  --border: solid 2px #65268F;
+  --backgroundColour: #edebf7;
+}
+
+
+
+/* blenzDetails-page */
+
+.blenzHero {
+    margin: 3rem 2.5rem 2rem; 
+    display: flex;
+    justify-content: center;
+  }
+
+  .heroText {
+    position: relative;
+    /* bottom: 3rem; */
+    right: 1rem;
+    width: 50%
+  }
+  
+  .blenzHero img {
+    width: 25%;
+    border: var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--boxShadow);
+  }
+  
+  .blenzHero h1 {
+    color: var(--black);
+    font-size: 3.5rem;
+    margin-bottom: 0;
+  }
+
+  .blenzHero h2 {
+    font-size: 1.5rem;
+    color: var(--lightPurple);
+    
+  }
+  
+  .blenzHero div {
+    margin-left: 3rem;
+  
+  }
+  
+  .blenzSection {
+    margin-bottom: 2rem;
+    color: var(--lightPurple);
+    text-align: start;
+    padding: 1rem;
+    display: flex;
+    justify-content:space-evenly;
+  
+  }
+  
+  .blenzSection h3 {
+    color: var(--black);
+  }
+
+  .blenzSection p {
+    font-weight: bold;
+  }
+  .blenzSection .software {
+    font-size: 1.5rem;
+  }
+  
+  hr {
+    margin: 1.5rem;
+    border: solid 2px var(--darkPurple);
+  }
+
+.divider {
+    margin: 2rem;
+    border: solid 1px var(--lightPurple);
+    border-style: dotted;
+
+  }
+
+.blenzCard2 {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 2rem;
+}
+
+
+.blenzCard2 img {
+  position: relative;
+  left: 20%;
+  border-radius: var(--radius);
+  border: var(--border);
+  box-shadow: var(--boxShadow);
+  width: 60%;
+}
+
+.blenzD h3 {
+  color: var(--lightPurple);
+  margin-top: 0;
+  font-family: var(--title);
+  text-align: center;
+
+}
+
+.blenzCard1 {
+  margin: 0 2rem;
+  
+}
+
+.blenzCard1 h2 {
+  font-size: 2rem;
+  font-family: var(--title);
+}
+
+.blenzIntro {
+  display: flex;
+  padding: 2rem;
+}
+
+.blenzInfo {
+  display: flex;
+}
+
+.blenzImg img {
+  width: 34%;
+  margin-right: 2rem;
+}
+
+.planetLogo {
+  position: relative;
+  bottom: 1.9rem;
+}
+
+.blenzCard3 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2rem;
+}
+
+
+.blenzCard3  li{
+  color: var(--lightPurple);
+  line-height: 1.8;
+  padding-left: 0;
+}
+
+.blenzCard3  ul{
+  color: var(--lightPurple);
+  line-height: 1.8;
+  padding-left: 1rem;
+}
+.blenzCard4 {
+  margin: 0 2rem;
+  display: flex;
+}
+
+.blenzIntro4 img {
+  width: 50%;
+}
+
+.palette {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  max-width: auto;
+}
+.color-swatch {
+  width: 120px; /* Adjust width for the rectangular shape */
+  height: 60px; /* Adjust height for the rectangular shape */
+  border: var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  text-align: center;
+  margin-top: 0.3rem;
+}
+
+.color-2 p {
+  color: white;
+}
+
+  .color-1 { background-color: #472616; } /* Orange */
+  .color-2 { background-color: #000000; } /* Green */
+  .color-3 { background-color: #ffffff; } /* Blue */
+  .color-4 { background-color: #ffd96e; } /* Yellow */
+  .color-5 { background-color: #faa41e; } /* Red */
+  .color-6 { background-color: #d7afd2; } /* Maroon */
+
+  .blenzCard5 {
+    margin: 0 2rem;
+  }
+
+  .blenzCard5 img {
+    width: 90%;
+
+  }
+
+
+/* projects-card */
+
+.featuresCard {
+  
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem; 
+  margin: 2rem auto; 
+}
+
+.blenzCard {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius);
+  box-shadow: var(--boxShadow);
+  background-color: white;
+  transition: transform 0.3s ease;
+}
+
+.blenzInner {
+  height: 18.75rem;
+}
+
+.blenzCard:hover {
+  transform: scale(1.1);
+}
+
+.blenzBox {
+  position: relative;
+  height: 100%;
+}
+
+.featuresIntro {
+  margin: 5rem 0;
+  text-align: center;
+}
+
+.featuresIntro .title {
+  color: var(--black);
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: var(--title);
+  font-weight: var(--bold);
+  margin-bottom: 2rem;
+}
+
+
+/* Media Query for Mobile */
+@media (max-width: 480px) {
+
+  
+
+}
+
+
+/* Media Query for tablet */
+@media (max-width: 768px) {
+
+  
+
+
+}
+
+/* Media Query for desktop */
+@media (max-width: 768px) {
+
+
+}
+

@@ -1,0 +1,276 @@
+:root {
+  --title: "Gentium Book Plus", serif;
+  --text: "Oxygen", serif;
+  --bold: 600;
+  --lightPurple:#8349a9;
+  --purple: #65268F;
+  --lilac: #c196de;
+  --darkPurple: #4b1271;
+  --black: #0e0220;
+  --radius: 1.25rem;
+  --boxShadow: -1px 15px 30px -12px #4b1271 ;
+  --border: solid 2px #65268F;
+  --backgroundColour: #edebf7;
+}
+
+
+/* Container layout */
+.portfolio-container {
+  display: flex;
+  padding: 1rem;
+  height: 100vh;
+  border: var(--border);
+}
+
+/* Left Side: List */
+.portfolio-list {
+  padding-left: 0;
+  width: 30%;
+  list-style: none;
+  margin: 0;
+}
+
+.portfolio-list-item {
+  margin-bottom: 2rem;
+  cursor: pointer;
+  font-size: 1rem;
+  color: var(--darkPurple);
+  transition: all 0.3s ease;
+}
+
+.portfolio-list-item.active {
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: var(--darkPurple);
+}
+
+.portfolio-details {
+  width: 80%;
+  text-align: center;
+}
+
+.portfolio-image {
+  width: 80%;
+  height: auto;
+  border: var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--boxShadow);
+}
+
+.portfolio-title {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.portfolio-description {
+  font-size: 1rem;
+  color: #666;
+}
+
+
+
+/* about-page */
+.about-content {
+  margin-top: 4rem;
+  border: var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--boxShadow);
+  padding: 2rem;
+}
+
+.about-intro {
+  margin: 1rem;
+  display: flex;
+  gap: 2rem; 
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.about-intro img {
+  border-radius: var(--radius);
+  width: 250px;
+  max-width: 100%; 
+  height: auto; 
+}
+
+.about-text {
+  flex: 1; 
+}
+
+.about-text h1 {
+  font-family: var(--title);
+  font-size: 2.5rem;
+  color: var(--black);
+  font-weight: var(--bold);
+}
+
+.about-text p {
+  font-size: 1rem;
+  color: var(--lightPurple);
+  font-weight: var(--bold);
+  line-height: 1.6; 
+}
+
+/* about-skills */
+.skills-container {
+  text-align: center;
+  font-size: 3rem;
+  color: var(--lightPurple);
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 6rem;
+}
+
+
+.skill-title {
+  font-size: 2rem;
+  font-weight: var(--bold);
+  text-align: center;
+  color: var(--black);
+  margin: 5rem 0;
+}
+
+
+/* about-hobbies */
+.hobbies h2 {
+  font-size: 2rem;
+  font-weight: var(--bold);
+  text-align: center;
+  color: var(--black);
+  margin: 5rem 0;
+}
+
+.hobbies p {
+  font-size: 1.5rem;
+  font-weight: var(--bold);
+  text-align: center;
+  color: var(--lightPurple);
+  margin: 5rem 0;
+
+}
+.hobby-intro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; 
+  gap: 3rem; 
+  margin: 4rem auto; 
+  padding: 0 2rem; 
+}
+.hobby-intro2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 3rem; 
+  margin: 4rem auto; 
+  padding: 0 2rem; 
+}
+
+.hobby-card {
+  width: 220px; 
+  border: var(--border); 
+  border-radius: var(--radius);
+  box-shadow: var(--boxShadow); 
+  overflow: hidden; 
+  text-align: center; 
+  background-color: white; 
+  transform: rotate(-15deg); 
+  transition: transform 0.3s ease; 
+}
+
+.hobby-card h3 {
+  font-size: 1.2rem;
+  margin-top: 3rem;
+  color: var(--purple);
+}
+
+.hobby-card:hover {
+  transform: rotate(0deg) scale(1.05); 
+}
+
+.image-wrapper {
+  width: 87%;
+  padding: 1rem;
+  aspect-ratio: 1 / 1; 
+  overflow: hidden; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.image-wrapper img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+}
+
+.icon-pin {
+  color: var(--lightPurple);
+  font-size: 2rem; 
+  position: absolute;
+  top: 3px; 
+  left: 50%; 
+  transform: translate(-50%, 0) rotate(20deg); 
+  z-index: 2;
+}
+
+
+/* Media Query for Mobile */
+@media (max-width: 480px) {
+
+  .about-intro img {
+    width: 100%; /* Full width for very small screens */
+  }
+
+  .about-text h1 {
+    font-size: 1.8rem; /* Smaller heading for compact screens */
+  }
+
+  .about-text p {
+    font-size: 0.85rem; /* Smaller paragraph font size */
+  }
+}
+
+
+/* Media Query for tablet */
+@media (max-width: 768px) {
+
+  
+  .about-intro {
+    flex-direction: column; /* Stack items vertically */
+    text-align: center; /* Center align content */
+  }
+
+  .about-intro img {
+    margin-bottom: 1.5rem; /* Add spacing below the image */
+    width: 80%; /* Make image adapt to screen size */
+    max-width: 300px; /* Cap the size on small screens */
+  }
+
+  .about-text h1 {
+    font-size: 2rem; /* Slightly smaller heading on small screens */
+  }
+
+  .about-text p {
+    font-size: 0.9rem; /* Reduce paragraph size for readability */
+  }
+  .hobby-intro {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+  }
+
+  .hobby-card {
+    width: 90%; /* Full width on small screens */
+  }
+  .skills-container {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .skill-item {
+    width: 80%;
+  }
+}

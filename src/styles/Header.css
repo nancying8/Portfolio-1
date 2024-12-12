@@ -1,0 +1,148 @@
+:root {
+    --title: "Gentium Book Plus", serif;
+    --text: "Oxygen", serif;
+    --bold: 600;
+    --lightPurple:#8349a9;
+    --purple: #65268F;
+    --lilac: #c196de;
+    --darkPurple: #4b1271;
+    --black: #0e0220;
+    --radius: 1.25rem;
+    --boxShadow: -1px 15px 30px -12px #4b1271 ;
+    --border: solid 2px #65268F;
+    --backgroundColour: #edebf7;
+  }  
+
+/* header */
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: var(--bold);
+    font-size: 0.9rem;
+  }
+  
+  .nav-bar ul {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-bar img {
+    width: 10%;
+    z-index: 1;
+  }
+  
+  .nav-link li {
+    display: inline-block;
+    margin-left: 1rem;
+    justify-content: center;
+  }
+  
+  .nav-link li a {
+    color: var(--black);
+    text-decoration: none;
+    padding: 0.7rem;
+    border: var(--border);
+    border-radius: 0.3rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .nav-link li a:hover {
+    color: white;
+    background-color: var(--purple);
+    box-shadow: var(--boxShadow);
+  }
+  
+  
+  /* Hamburger Menu */
+  .hamburger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  
+  .hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: var(--purple);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Media Query for Mobile */
+@media (max-width: 480px) {
+
+  .nav-bar ul {
+    top: 3rem;
+  }
+ 
+}
+
+
+/* Media Query for tablet */
+@media (max-width: 768px) {
+
+    .hamburger.open .bar:nth-child(1) {
+      transform: rotate(45deg);
+      position: relative;
+      top: 7px;
+    }
+    
+    .hamburger.open .bar:nth-child(2) {
+      opacity: 0; 
+    }
+    
+    .hamburger.open .bar:nth-child(3) {
+      transform: rotate(-45deg);
+      position: relative;
+      top: -7px;
+    }
+  
+    .nav-bar ul {
+      display: none; 
+      position: absolute;
+      top: 6rem;
+      left: 0;
+      right: 0;
+      background-color: var(--darkPurple);
+      flex-direction: column;
+      margin: 2rem;
+      text-align: center;
+      padding: 2rem 0;
+      z-index: 5;
+      border-radius: 0.3rem ;
+    }
+  
+    .nav-bar img {
+      width: 20%;
+      z-index: 1;
+    }
+  
+    .nav-link li a {
+      background-color: none;
+      color: white;
+      text-decoration: none;
+      list-style: none;
+      border: none;
+      border-radius: none;
+      padding-bottom:1rem;
+      transition: transform 0.2s ease;
+    }
+  
+    .nav-link a:hover {
+      color: var(--darkPurple);
+      background-color: white;
+      border-radius: 0.3rem;
+      padding: 0.5rem 2rem;
+    }
+  
+    .nav-bar ul.active {
+      display: flex;
+    }
+    
+    .hamburger {
+      display: flex; 
+    }
+    
+  }

@@ -1,0 +1,210 @@
+:root {
+  --title: "Gentium Book Plus", serif;
+  --text: "Oxygen", serif;
+  --bold: 600;
+  --lightPurple:#8349a9;
+  --purple: #65268F;
+  --lilac: #c196de;
+  --darkPurple: #4b1271;
+  --black: #0e0220;
+  --radius: 1.25rem;
+  --boxShadow: -1px 15px 30px -12px #4b1271 ;
+  --border: solid 2px #65268F;
+  --backgroundColour: #edebf7;
+}
+
+/* projects-page */
+.projects-intro {
+  margin: 5rem 0;
+  text-align: center;
+}
+
+.projects-intro .title {
+  color: var(--black);
+  text-align: center;
+  font-size: 3.5rem;
+  font-family: var(--title);
+  font-weight: var(--bold);
+  margin-bottom: 2rem;
+}
+ 
+.projects-intro p {
+  color: var(--lightPurple);
+  font-size: 1.2rem;
+  font-weight: var(--bold);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* projects-arrow */
+.ion-arrow-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+/* Style for Ionicons */
+.ion-arrow {
+  color: var(--lightPurple); 
+  opacity: 0; 
+  animation: arrow-move 1.5s infinite ease-in-out; 
+}
+
+.ion-arrow:nth-child(1) {
+  font-size: 2.1rem; 
+  animation-delay: 0s;
+}
+
+.ion-arrow:nth-child(2) {
+  font-size: 1.7rem;
+  animation-delay: 0.3s;
+}
+
+.ion-arrow:nth-child(3) {
+  font-size: 1.5rem; 
+  animation-delay: 0.6s;
+}
+
+/* Keyframes for the animation */
+@keyframes arrow-move {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px); 
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0); 
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(10px); 
+  }
+}
+
+
+/* projects-card */
+.card {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius);
+  box-shadow: var(--boxShadow);
+  background-color: white;
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  gap: 3rem; 
+  transition: transform 0.3s ease;
+  margin: 4rem;
+}
+
+.card-inner {
+  height: 18.75rem;
+  grid-column: 1; 
+}
+
+.card-content {
+  padding: 1rem 2rem 1rem 0;
+  text-align: left;
+  grid-column: 2; 
+  color: var(--black);
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.box {
+  position: relative;
+  height: 100%;
+}
+
+.imgBox {
+  position: absolute;
+  inset: 0;
+}
+
+.imgBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.icon-intro {
+  position: absolute;
+  bottom: -0.5rem;
+  right: -1px;
+  width: 6rem;
+  height: 7rem;
+  background: white;
+  border-top-left-radius: 45%;
+}
+
+.iconBox {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  gap: 1rem;
+}
+  
+.icon {
+  border-radius: 50%;
+  background-color: var(--lilac);
+  border: solid 1.5rem var(--lilac);
+  color: white;
+  font-size: 1.8rem;
+  rotate: 30deg;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+  background-color: var(--darkPurple);
+  border: solid 1.5rem var(--darkPurple);
+}
+
+.card-content ul {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 0;
+}
+
+.card-tools {
+  border-radius: 0.2rem;
+  font-size: 3rem;
+  color: var(--lightPurple);
+  margin: 0;
+}
+
+.card-content p {
+  line-height: 1.8;
+}
+
+.card-skills {
+  font-weight: 800;
+  color: var(--darkPurple);
+  padding-bottom: 1rem;
+}
+
+
+
+/* Media Query for Mobile */
+@media (max-width: 480px) {
+
+  
+}
+
+
+/* Media Query for tablet */
+@media (max-width: 768px) {
+
+  .card {
+    display: block;
+    margin: 0;
+  }
+
+  .card:hover {
+    transform: scale(0.9);
+  }
+  
+}

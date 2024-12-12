@@ -12,7 +12,7 @@ const BackGroundAnimation = () => {
 
       // Assign random styles to each ball
       ball.style.background = colors[Math.floor(Math.random() * colors.length)];
-      ball.style.left = `${Math.floor(Math.random() * 55)}vw`;
+      ball.style.left = `${Math.floor(Math.random() * 52)}vw`;
       ball.style.top = `${Math.floor(Math.random() * 90 + 10 )}vh`;
       ball.style.transform = `scale(${Math.random() + 90})`;
       ball.style.width = `${Math.random() * 13 + 1}em`;

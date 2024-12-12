@@ -1,27 +1,16 @@
 [
     {
       "id": 1,
-      "image": "https://res.cloudinary.com/du7l1kfwn/image/upload/f_auto,q_auto/olb9sebttbzeatdblecw",
-      "alt": "Blenz Poster",
-      "animation": "fade-down-left"
+      "image": "https://res.cloudinary.com/du7l1kfwn/image/upload/v1733907530/blenzPoster_tqhffu.jpg",
+      "alt": "Blenz Poster"
+      
     },
     {
       "id": 2,
       "image": "https://res.cloudinary.com/du7l1kfwn/image/upload/f_auto,q_auto/okmv4ro3gan47xgzn3sj",
-      "alt": "Kinemi Web",
-      "animation": "fade-down-right"
-    },
-    {
-      "id": 3,
-      "image": "https://res.cloudinary.com/du7l1kfwn/image/upload/f_auto,q_auto/VIOLETCARD",
-      "alt": "Business Card",
-      "animation": "fade-down-left"
-    },
-    {
-      "id": 4,
-      "image": "https://res.cloudinary.com/du7l1kfwn/image/upload/f_auto,q_auto/tk5el1j0t17m5jo3ex6n",
-      "alt": "Summer Poster",
-      "animation": "fade-down-right"
+      "alt": "Kinemi Web"
+      
     }
   ]
+  
   

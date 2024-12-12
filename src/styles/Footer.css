@@ -1,0 +1,87 @@
+:root {
+    --title: "Gentium Book Plus", serif;
+    --text: "Oxygen", serif;
+    --bold: 600;
+    --lightPurple:#8349a9;
+    --purple: #65268F;
+    --lilac: #c196de;
+    --darkPurple: #4b1271;
+    --black: #0e0220;
+    --radius: 1.25rem;
+    --boxShadow: -1px 15px 30px -12px #4b1271 ;
+    --border: solid 2px #65268F;
+    --backgroundColour: #edebf7;
+  }  
+
+/* footer */
+
+.footer h2 {
+  font-family: var(--text);
+    color: var(--black);
+    text-align: center;
+    font-size: 2.5rem;
+    font-style: italic;
+    margin-top: 4rem ;
+  }
+  
+  .footer p {
+    color: var(--lightPurple);
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
+  }
+  
+  .footer-intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer hr {
+    margin-bottom: 3rem;
+    border: solid 2px var(--darkPurple);
+  }
+  
+  .footer-intro img {
+    width: 10%;
+    margin-right: 0;
+  }
+  
+  .footer-intro p {
+    color: var(--darkPurple);
+    font-weight: 800;
+    font-size: 0.7rem;
+    display: contents;
+  }
+  
+  .footer-icon {
+    margin-left: 5rem;
+    padding: 1rem;
+    font-size: 2rem;
+    color: var(--darkPurple);
+    justify-content: space-between;
+  }
+  
+  .footer-icon:hover {
+    transform: scale(1.5);
+  }
+  
+  /* Media Query for tablet */
+@media (max-width: 768px) {
+
+  .footer-intro {
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+  }
+
+  .footer-icon {
+    margin-left: 0;
+  }
+
+  .footer-intro img {
+    width: 25%;
+    margin-bottom: 1rem;
+  }
+  
+}

@@ -1,34 +1,39 @@
+
 [
     {
         "id": "1",
         "title": "Redesign a Poster",
-        "design": "https://res.cloudinary.com/du7l1kfwn/image/upload/f_auto,q_auto/olb9sebttbzeatdblecw",
+        "design": "https://res.cloudinary.com/du7l1kfwn/image/upload/v1733907530/blenzPoster_tqhffu.jpg",
         "skills": "Graphic Design",
-        "tools": "Adobe Photoshop",
-        "description": "Blenz Coffee and Planet Bee Honey Farm have collaborated to create a new beverage flavour for Spring season."
+        "tools": "SiAdobephotoshop" ,
+        "description": "Blenz Coffee and Planet Bee Honey Farm have collaborated to create new beverages.",
+        "links": "/blenz"
     },
     {
         "id": "2",
         "title": "Redesign a Website",
-        "design": "https://res.cloudinary.com/du7l1kfwn/image/upload/f_auto,q_auto/okmv4ro3gan47xgzn3sj",
+        "design": "https://res.cloudinary.com/du7l1kfwn/image/upload/v1733786682/okmv4ro3gan47xgzn3sj.jpg",
         "skills": "UI / UX",
-        "tools": "Figma",
-        "description": "Kinemi's Kitchen a Japanese-Italian Restaurant in Vancouver"
+        "tools": "LuFigma",
+        "description": "Kinemi's Kitchen a Japanese-Italian Restaurant in Vancouver",
+        "links": "/kinemi"
     },
     {
         "id": "3",
         "title": "Design Business Card",
-        "design": "https://res.cloudinary.com/du7l1kfwn/image/upload/f_auto,q_auto/VIOLETCARD",
+        "design": "https://res.cloudinary.com/du7l1kfwn/image/upload/v1733786660/VIOLETCARD.jpg",
         "skills": "Graphic Design",
-        "tools": "Adobe Photoshop",
-        "description": "Violet Cosmetics a small business in Vancouver"
+        "tools": "SiAdobephotoshop",
+        "description": "Violet Cosmetics a small business in Vancouver",
+        "links": "/violet"
     },
     {
         "id": "4",
         "title": "Design a Poster",
-        "design": "https://res.cloudinary.com/du7l1kfwn/image/upload/f_auto,q_auto/tk5el1j0t17m5jo3ex6n",
+        "design": "https://res.cloudinary.com/du7l1kfwn/image/upload/v1733786668/tk5el1j0t17m5jo3ex6n.jpg",
         "skills": "Graphic Design",
-        "tools": "Adobe Illustration",
-        "description": "CFestival promo a Summer Event in Central Park"
+        "tools": "SiAdobeillustrator",
+        "description": "CFestival promo a Summer Event in Central Park",
+        "links": "/season"
     }
 ]

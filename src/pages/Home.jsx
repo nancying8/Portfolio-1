@@ -1,14 +1,11 @@
 import React  from "react"; // Import React to use JSX
-import { Link } from "react-router-dom"; // Importing Link from react-router-dom for navigation
 import Banner from "../components/Banner"; // Importing the Banner component to display the banner section
-// import Intro from "../components/Intro";
+import { Link } from "react-router-dom"; // Importing Link from react-router-dom for navigation
 import WaveTitle from "../components/WaveTitle"; // Importing the WaveTitle component for animated titles
-// import DetailCard from "../components/DetailCard"; 
-// Importing the DetailCard component to display project details
+import DetailCard from "../components/DetailCard"; // Importing the DetailCard component to display project details
 import IonIcon from "@reacticons/ionicons"; // Importing IonIcon for icon usage
 import { motion } from "framer-motion"; // Importing motion for animations
-
-
+import "../styles/Home.css";
 
 function Home() {
   
@@ -28,15 +25,48 @@ function Home() {
       <section>
         <Banner />
         <div className="home-sub">
-        <WaveTitle text="My Works" speed={150} />
+        <WaveTitle text="My   Projects" speed={150} />
         <h3>2024</h3>
         </div>
-        {/* <DetailCard /> */}
+        
+
+      <div className='homeFCard'>
+
+      <div className="homeCard">
+        <div className="homeInner"> 
+          <div className="homeBox">
+            <div className="imgBox">
+              <img src='https://res.cloudinary.com/du7l1kfwn/image/upload/v1733907530/blenzPoster_tqhffu.jpg' alt='blenz'/>
+            </div>
+            <div className="icon-intro">
+              <Link className="iconBox" to="/blenz"> 
+              <IonIcon onClick={handleClick} className="icon" name="arrow-up-outline" />
+                </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="homeCard">
+        <div className="homeInner"> 
+          <div className="homeBox">
+            <div className="imgBox">
+              <img src='https://res.cloudinary.com/du7l1kfwn/image/upload/v1733786682/okmv4ro3gan47xgzn3sj.jpg' alt='kinemi'/>
+            </div>
+            <div className="icon-intro">
+              <Link className="iconBox" to="/kinemi"> 
+              <IonIcon onClick={handleClick} className="icon" name="arrow-up-outline" />
+                </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
         <div className="sub-button">
         <Link 
           to="/projects" 
           onClick={handleClick}>
-          Read More
+          More Projects
         </Link>
         <motion.div
         animate={{
