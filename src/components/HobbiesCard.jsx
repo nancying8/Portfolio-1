@@ -15,7 +15,7 @@ function HobbiesCard() {
         <h2>My Hobbies</h2>
         <p>Showcases my photography skills through my hobbies</p>
 
-        <div className="hobby-intro2">
+        <div className="hobby-intro">
         <div className="hobby-card">
             <IonIcon className="icon-pin" name="pin-outline" />
             <h3>NY - Rockefeller Center</h3>

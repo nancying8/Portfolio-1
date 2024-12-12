@@ -18,7 +18,7 @@ function Header() {
   };
 
   const handleClick = () => {
-    window.scrollTo(0, 100);
+    window.scrollTo(0, 0);
   };
 
 
