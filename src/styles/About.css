@@ -133,8 +133,12 @@
   margin: 5rem 0;
 }
 
+.iconSkill {
+  color: var(--lightPurple);
+}
+
 .iconSkill:hover {
-  color: var(--black);
+  color: var(--lightPurple);
   transform: scale(1.2);
  
 }
@@ -221,13 +225,19 @@
 }
 
 .icon-pin {
-  color: var(--lightPurple);
+  color: var(--black);
   font-size: 2rem; 
   position: absolute;
   top: 3px; 
   left: 50%; 
   transform: translate(-50%, 0) rotate(20deg); 
   z-index: 2;
+}
+
+.iconSkill {
+  color: var(--black);
+
+  font-size: 4rem;
 }
 
 

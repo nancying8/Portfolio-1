@@ -20,16 +20,15 @@ function HobbiesCard() {
         <h2>My Hobbies</h2>
         <p> On my free time, I like to do my favourites activities. </p>
         <div className="hoobies-icon">
-        <div>
-        <FaCameraRetro />
-        <p>I will call myself as amateur of photography. I like to caught the special random and spontanous moments.</p>
-        </div>    
-        <GiHiking />
-        <p>Hiking is my favourites activitiesin Summer time.</p>
-        <p></p>
-        <MdFoodBank />
-        <p>Living in Vancouver with multicultural, I will like to try all diversity of foods.</p>
-
+            <div>
+            <FaCameraRetro className="iconSkill" />
+            <p>I will call myself as amateur of photography. I like to caught the special random and spontanous moments.</p>
+            </div>    
+            <GiHiking className="iconSkill" />
+            <p>Hiking is my favourites activitiesin Summer time.</p>
+            <p></p>
+            <MdFoodBank className="iconSkill" />
+            <p>Living in Vancouver with multicultural, I will like to try all diversity of foods.</p>
         </div>
         <p>Showcases my photography skills through my hobbies</p>
 
