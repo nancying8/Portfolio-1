@@ -135,10 +135,8 @@
 
 .iconSkill:hover {
   color: var(--black);
-  transform: scale(1.1);
-  box-shadow: var(--boxShadow);
-
-
+  transform: scale(1.2);
+ 
 }
 
 /* about-hobbies */

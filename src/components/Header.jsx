@@ -17,10 +17,16 @@ function Header() {
     setIsOpen(false); // Closes the menu by setting isOpen to false
   };
 
+  const handleClick = () => {
+    window.scrollTo(0, 100);
+  };
+
+
   return (
     <div>
       <nav className="nav-bar">
-        <img src={Logo} alt="logo" />
+ 
+      <Link onClick={handleClick} to="/"> <img src={Logo} alt="logo" /> </Link>
         
         {/* Hamburger Menu */}
         <div

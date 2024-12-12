@@ -13,10 +13,8 @@ function AboutContent () {
                 <div className="about-intro">
                     <img src={Photo} />
                     <div className="about-text">
-                        <h1>About Me</h1>
-                        <p> Hi, I’m Nancy, a graphic designer based in Vancouver, 
-                            and an aspiring passionate about creating beautiful and functional designs. 
-                            Currently, I’m enhancing my skills at BCIT in New Media Design while bringing my core values of integrity, responsibility, and perseverance to every project. Beyond design, 
+                        <h1>Hi , I am Nancy</h1>
+                        <p> I am currenntly studend at BCIT in New Media design. I’m enhancing my skills at my course. I have been working with customer service for over 10 years, which bringing my core values of integrity, responsibility, and perseverance to every project. Beyond design, 
                             I love hiking, capturing stunning photos, and exploring new flavors as a dedicated foodie.
                         </p>
                     </div>
