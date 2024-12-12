@@ -26,7 +26,7 @@ function HobbiesCard() {
             </div>    
             <GiHiking className="iconSkill" />
             {/* <p>Hiking is my favourites activitiesin Summer time.</p> */}
-            <p></p>
+            
             <MdFoodBank className="iconSkill" />
             {/* <p>Living in Vancouver with multicultural, I will like to try all diversity of foods.</p> */}
         </div>
