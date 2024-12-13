@@ -18,7 +18,7 @@ function HobbiesCard() {
 
     <div className="hobbies">
         <h2>My Hobbies</h2>
-        <p> On my free time, I like to do my favourites activities. </p>
+        <p> On my free time, I like to do my favourite activities. </p>
         <div className="hoobies-icon">
             <div>
             <FaCameraRetro className="iconSkill" />
