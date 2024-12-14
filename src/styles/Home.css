@@ -211,6 +211,20 @@
     opacity: 0.3;
   }
 
+  .banner {
+    left: 7%;
+  }
+
+  .home-sub {
+    margin: 1rem 2rem;
+    font-size: 2rem;
+  }
+
+  .homeCard {
+    margin: 2rem;
+  }
+
+
 }
 
 
@@ -222,7 +236,7 @@
   }
 
   .banner {
-    left: 50%;
+    left: 30%;
     margin-bottom: 15rem;
   }
 
@@ -231,6 +245,24 @@
     padding-right: 2rem;
     font-size: 0.6rem;
     max-width: 18rem;
+  }
+
+  .homeFCard {
+    margin: 6rem;
+  }
+
+  .homeCard {
+    display: block;
+  }
+
+  .home-sub {
+    margin: 2rem 5rem;
+  
+  }
+
+  .footer-intro a {
+    display: contents;
+    justify-content: center;
   }
 
 }

@@ -258,6 +258,32 @@
 /* Media Query for tablet */
 @media (max-width: 768px) {
 
+  .blenzHero {
+    display: inline;
+  }
+
+  .blenzSection hr {
+    margin: 0;
+  }
+
+  .blenzInfo {
+    display: contents;
+  }
+
+  .blenzCard2 {
+    display: contents;
+  }
+
+  .blenzCard3, .blenzCard4 {
+    display:block;
+  }
+
+  .featuresCard {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 2rem 2rem;
+  }
+
   
 
 
