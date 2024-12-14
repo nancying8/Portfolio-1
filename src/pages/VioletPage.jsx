@@ -1,11 +1,14 @@
-import React from 'react';
+import React from 'react'; // Import React to use JSX
 import { Link } from 'react-router-dom'; // Import Link for navigation between pages'
 import IonIcon from "@reacticons/ionicons"; // Import IonIcons for the arrow icon
 import "../styles/VioletPage.css";
 import { SiAdobephotoshop } from "react-icons/si";
 import WaveTitle from "../components/WaveTitle"; // Importing WaveTitle component for animated titles
 
-
+// Define the VioletPage component
+// handleClick will scroll top the top in any link
+// 'palette' is group of colours
+// 'feature' are cards that show other projects
 
 function VioletPage () {
 
@@ -23,31 +26,28 @@ function VioletPage () {
                     <h2> Violet Cosmetic</h2> 
                 </div>
             </div>
-
             <div className='blenzSection'>
                 <div>
-                <h3>Role</h3>
-                <p> Graphic Desginer</p>
+                    <h3>Role</h3>
+                    <p> Graphic Desginer</p>
                 </div>
                 <hr />
                 <div>
-                <h3>Time</h3>
-                <p> 30:00 hours</p>
+                    <h3>Time</h3>
+                    <p> 30:00 hours</p>
                 </div>
                 <hr />
                 <div>
-                <h3>Year</h3>
-                <p> 2024</p>
+                    <h3>Year</h3>
+                    <p> 2024</p>
                 </div>
                 <hr />
-                <div>
-                <h3>Software</h3>
-                <SiAdobephotoshop className='software' />
+                    <div>
+                    <h3>Software</h3>
+                    <SiAdobephotoshop className='software' />
                 </div>
             </div>
-
             <hr className='divider' />
-
             <div className='blenzCard1'>
                 <h2>Description</h2>
                 <div className='blenzInfo' >
@@ -55,7 +55,6 @@ function VioletPage () {
                 </div>
                 </div>
                 <hr className='divider' />
-
                 <div className='blenzCard2'>
                 <div>
                     <h2>Inspirations</h2>
@@ -66,34 +65,25 @@ function VioletPage () {
                     <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1734145108/Screenshot_2024-12-13_at_6.57.58_PM_mzwf44.png" alt="" />
                 </div>
             </div>
-
             <hr className='divider' />
-            
-
                 <div className='blenzCard3'>
-        
                 <div className='violetLogo'>
-                <h2>Sketch</h2>
-                <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1734146234/WuZheng_LogoSketch_bzf4iu.jpg" alt="sketch" />
+                    <h2>Sketch</h2>
+                    <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1734146234/WuZheng_LogoSketch_bzf4iu.jpg" alt="sketch" />
                 </div>
-
                 <div className='violetLogo' >
-                <h2>Final Artwork</h2>
-
-                <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1734152195/newlogo_wpc9jq.png" alt="mockup" />
-            </div>
-                
-            </div>
+                    <h2>Final Artwork</h2>
+                    <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1734152195/newlogo_wpc9jq.png" alt="mockup" />
+                </div>
+                </div>
             <hr className='divider' />
-
             <div className='blenzCard4'>
                 <div className='blenzIntro4'>
-                <h2>Mood Board</h2>
-                <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1734147191/Group_4_j770h4.png" alt="moodboard" />
+                    <h2>Mood Board</h2>
+                    <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1734147191/Group_4_j770h4.png" alt="moodboard" />
                 </div>
                 <div>
-                <h2>Colour Palette</h2>
-                
+                    <h2>Colour Palette</h2>
                 <div className="palette">
                     <div className="color-swatch violeColor-1"><p>#77278F</p></div>
                     <div className="color-swatch violeColor-2"><p>#00000</p></div>
@@ -104,30 +94,20 @@ function VioletPage () {
                 </div>
                 </div>
             </div>
-
             <hr className='divider' />
-
             <div className='blenzCard5' >
                 <h2>Mockup</h2>
-
                 <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1733786660/VIOLETCARD.jpg" alt="mockup" />
             </div>
-            
-
             <div className='blenzCard5'>
                 <h2>Closing Statement</h2>
                 <p>Redesigning this poster was a journey by ensuring every element communicates the essence of Blenz Coffee’s collaboration with Planet Bee. Each adjustment, from typography to imagery, was made with careful consideration of aesthetics, messaging, and audience appeal. The final design not only highlights the uniqueness of the seasonal offering but also strengthens the connection between the brand and its community.</p>
             </div>
-
             <hr className='divider' />
-
             <div className="featuresIntro">
-                        <WaveTitle className="title" text="More    Projects" speed={150} />
-                            
-                    </div>
-
+                <WaveTitle className="title" text="More  Projects" speed={150} />
+            </div>
             <div className='featuresCard'>
-
                 <div className="blenzCard">
                 <div className="blenzInner"> 
                     <div className="blenzBox">
@@ -171,11 +151,7 @@ function VioletPage () {
                 </div>
                 </div>
             </div>
-            
-    
-        </section>
-
-        
+        </section>  
     )
 }
 

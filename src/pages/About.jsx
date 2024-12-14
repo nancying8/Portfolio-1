@@ -18,7 +18,6 @@ function About () {
             </div>
             <AboutContent /> 
             <HobbiesCard/>
-
         </section>
     );
 }

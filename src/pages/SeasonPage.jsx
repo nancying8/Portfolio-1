@@ -1,20 +1,24 @@
-import React from 'react';
+import React from 'react'; // Import React to use JSX
 import { Link } from 'react-router-dom'; // Import Link for navigation between pages'
 import IonIcon from "@reacticons/ionicons"; // Import IonIcons for the arrow icon
 import "../styles/SeasonPage.css";
 import { SiAdobephotoshop } from "react-icons/si";
 import WaveTitle from "../components/WaveTitle"; // Importing WaveTitle component for animated titles
 
+// Define the VioletPage component
+// handleClick will scroll top the top in any link
+// 'palette' is group of colours
+// 'feature' are cards that show other projects
+
 function SeasonPage () {
 
   const handleClick = () => {
-    window.scrollTo(0, 100);
+    window.scrollTo(0, 150);
   };
 
   return (
 
     <section>
-      
       <div className='blenzHero'>
         <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1734148914/summer_ww8iex.jpg" alt="" />
         <div className='heroText'>
@@ -22,7 +26,6 @@ function SeasonPage () {
           <h2> </h2> 
         </div>
       </div>
-
       <div className='blenzSection'>
         <div>
           <h3>Role</h3>
@@ -44,20 +47,17 @@ function SeasonPage () {
           <SiAdobephotoshop className='software' />
         </div>
       </div>
-
       <hr className='divider' />
-
       <div className='blenzCard1'>
           <h2>Description</h2>
         <div className='blenzInfo' >
-            <div className='seaImg'>
-                  <img className='planetLogo' src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1734149795/Asset_6-8_futjjc.png" alt="planetLogo" />
-            </div>
+          <div className='seaImg'>
+              <img className='planetLogo' src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1734149795/Asset_6-8_futjjc.png" alt="planetLogo" />
+          </div>
               <p> CFestival is an ficticos company create to project where the idea is create a summer poster for 2024. To celebrate the summer season what invoke reunion with music and foods. </p>
           </div>
           </div>
         <hr className='divider' />
-
         <div className='blenzCard2'>
           <div>
             <h2>Project Details</h2>
@@ -68,9 +68,7 @@ function SeasonPage () {
             <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1733799195/jdvphoucqjpk7uzziqfb.jpg" alt="" />
           </div>
       </div>
-          
       <hr className='divider' />
-
       <div className='blenzCard4'>
         <div className='blenzIntro4'>
           <h2>Mood Board</h2>
@@ -78,7 +76,6 @@ function SeasonPage () {
         </div>
         <div>
           <h2>Colour Palette</h2>
-        
           <div className="palette">
             <div className="color-swatch seaColor-1"><p>#5AC9E8</p></div>
             <div className="color-swatch seaColor-2"><p>#262262</p></div>
@@ -90,29 +87,20 @@ function SeasonPage () {
         </div>
       </div>
       <hr className='divider' />
-
       <div className='blenzCard5' >
         <h2>Mockup</h2>
-
         <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1733786668/tk5el1j0t17m5jo3ex6n.jpg" alt="mockup" />
       </div>
-
       <hr className='divider' />
-
       <div className='blenzCard5'>
         <h2>Closing Statement</h2>
         <p> Design this poster was emotional and waeming since Summer represent enjoy and reunion where I want to implement this concept into this poster and I believe the messaje was delivered. </p>
       </div>
-
       <hr className='divider' />
-
       <div className="featuresIntro">
-        <WaveTitle className="title" text="More    Projects" speed={150} />
-                    
-            </div>
-
+        <WaveTitle className="title" text="More    Projects" speed={150} />        
+      </div>
       <div className='featuresCard'>
-
         <div className="blenzCard">
           <div className="blenzInner"> 
             <div className="blenzBox">
@@ -156,7 +144,6 @@ function SeasonPage () {
           </div>
         </div>
       </div>
-
       </section> 
 )}
       

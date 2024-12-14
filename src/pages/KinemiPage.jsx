@@ -1,18 +1,21 @@
-import React from 'react';
+import React from 'react'; // Import React to use JSX
 import { Link } from 'react-router-dom'; // Import Link for navigation between pages'
 import IonIcon from "@reacticons/ionicons"; // Import IonIcons for the arrow icon
 import "../styles/KinemiPage.css";
 import WaveTitle from "../components/WaveTitle"; // Importing WaveTitle component for animated titles
 import { LuFigma } from "react-icons/lu";
 
+// Define the VioletPage component
+// handleClick will scroll top the top in any link
+// 'palette' is group of colours
+// 'feature' are cards that show other projects
+
 function KinemiPage () {
 
     const handleClick = () => {
         window.scrollTo(0, 150);
       };
-    
       return (
-    
         <section>
           <div className='kinHero'>
             <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1733994677/Screenshot_2024-12-12_at_1.10.58_AM_hdjsxp.png" alt="" />
@@ -21,7 +24,6 @@ function KinemiPage () {
               <h2>Kinemi's Kitchen</h2> 
             </div>
           </div>
-    
           <div className='kinSection'>
             <div>
               <h3>Role</h3>
@@ -54,7 +56,6 @@ function KinemiPage () {
               </div>
               </div>
             <hr className='divider' />
-    
             <div className='kinCard2'>
               <div>
                 <h2>Project Details</h2>
@@ -90,23 +91,17 @@ function KinemiPage () {
               <h2>Flow Chart</h2>
               <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1733996919/13_ngvgb5.png" alt="user persona" />
           </div>
-          
           <hr className='divider' />
-    
             <div className='kinCard5'>
               <h2>Low Fidelity Wireframe</h2>
               <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1733997207/Group_62_cqrv0u.png" alt="low fidelity" />
           </div>
-
           <hr className='divider' />
-    
             <div className='kinCard5'>
               <h2>High Fidelity Wireframe</h2>
               <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1733997399/Group_60_1_yvc1um.png" alt="high fidelity" />
           </div>
-
           <hr className='divider' />
-    
           <div className='kinCard4'>
             <div className='kinIntro4'>
               <h2>Typography</h2>
@@ -114,7 +109,6 @@ function KinemiPage () {
             </div>
             <div>
               <h2>Colour Palette</h2>
-            
               <div className="kinPalette">
                 <div className="kinColor-swatch kinColor-1"><p> #8E0403</p></div>
                 <div className="kinColor-swatch kinColor-2"><p> #00000</p></div>
@@ -125,29 +119,20 @@ function KinemiPage () {
             </div>
           </div>
           <hr className='divider' />
-    
           <div className='kinCard5' >
             <h2>Mockup</h2>
-    
             <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1733994454/kinemimock_squoxa.jpg" alt="mockup" />
           </div>
-    
           <hr className='divider' />
-    
           <div className='kinCard5'>
             <h2>Closing Statement</h2>
             <p>Redesigning The Kinemi's Kitchen website combines user-friendly design with a seamless UX/UI experience, making it easier for customers to explore the menu, make reservations, and connect with the restaurant.</p>
           </div>
-    
           <hr className='divider' />
-    
           <div className="featuresIntro">
-                    <WaveTitle className="title" text="More    Projects" speed={150} />
-                        
-                </div>
-    
+              <WaveTitle className="title" text="More    Projects" speed={150} />        
+          </div>
           <div className='featuresCard'>
-    
             <div className="blenzCard">
               <div className="blenzInner"> 
                 <div className="blenzBox">
@@ -191,9 +176,7 @@ function KinemiPage () {
               </div>
             </div>
           </div>
-          
-        </section>
-        
+        </section> 
     )
 }
 

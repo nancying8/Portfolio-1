@@ -1,20 +1,24 @@
-import React from 'react';
+import React from 'react'; // Import React to use JSX
 import { Link } from 'react-router-dom'; // Import Link for navigation between pages'
 import IonIcon from "@reacticons/ionicons"; // Import IonIcons for the arrow icon
 import "../styles/BlenzPage.css";
 import { SiAdobephotoshop } from "react-icons/si";
 import WaveTitle from "../components/WaveTitle"; // Importing WaveTitle component for animated titles
 
+// Define the VioletPage component
+// handleClick will scroll top the top in any link
+// 'palette' is group of colours
+// 'feature' are cards that show other projects
+
 function BlenzPage () {
 
   const handleClick = () => {
-    window.scrollTo(0, 100);
+    window.scrollTo(0, 150);
   };
 
   return (
 
     <section>
-      
       <div className='blenzHero'>
         <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/f_auto,q_auto/g7hwjojjdf3e4kwuulzg" alt="" />
         <div className='heroText'>
@@ -22,7 +26,6 @@ function BlenzPage () {
           <h2> BLENZ COFFEE</h2> 
         </div>
       </div>
-
       <div className='blenzSection'>
         <div>
           <h3>Role</h3>
@@ -44,9 +47,7 @@ function BlenzPage () {
           <SiAdobephotoshop className='software' />
         </div>
       </div>
-
       <hr className='divider' />
-
       <div className='blenzCard1'>
           <h2>Description</h2>
         <div className='blenzInfo' >
@@ -58,7 +59,6 @@ function BlenzPage () {
           </div>
           </div>
         <hr className='divider' />
-
         <div className='blenzCard2'>
           <div>
             <h2>Project Details</h2>
@@ -69,10 +69,7 @@ function BlenzPage () {
             <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1733799195/jdvphoucqjpk7uzziqfb.jpg" alt="" />
           </div>
       </div>
-
       <hr className='divider' />
-    
-
         <div className='blenzCard3'>
           <div>
             <h2> Target Audience  </h2>
@@ -85,12 +82,9 @@ function BlenzPage () {
           <div>
             <h2> Target Age </h2>
             <ul>
-              <li>( 18-34 ) </li>
-              <li>( 35-54 )</li>
-              <li>( + 55 )</li>
+              <li>( 18-28 ) </li>
             </ul>
             </div>
-
           <div>
             <h2>Location Display</h2>
             <ul>
@@ -101,7 +95,6 @@ function BlenzPage () {
           </div>
       </div>
       <hr className='divider' />
-
       <div className='blenzCard4'>
         <div className='blenzIntro4'>
           <h2>Mood Board</h2>
@@ -109,7 +102,6 @@ function BlenzPage () {
         </div>
         <div>
           <h2>Colour Palette</h2>
-        
           <div className="palette">
             <div className="color-swatch color-1"><p> #472616</p></div>
             <div className="color-swatch color-2"><p> #00000</p></div>
@@ -121,29 +113,20 @@ function BlenzPage () {
         </div>
       </div>
       <hr className='divider' />
-
       <div className='blenzCard5' >
         <h2>Mockup</h2>
-
         <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1733802155/radjgn7ntxpmqjhgyeuj.jpg" alt="mockup" />
       </div>
-
       <hr className='divider' />
-
       <div className='blenzCard5'>
         <h2>Closing Statement</h2>
         <p>Redesigning this poster was a journey by ensuring every element communicates the essence of Blenz Coffee’s collaboration with Planet Bee. Each adjustment, from typography to imagery, was made with careful consideration of aesthetics, messaging, and audience appeal. The final design not only highlights the uniqueness of the seasonal offering but also strengthens the connection between the brand and its community.</p>
       </div>
-
       <hr className='divider' />
-
       <div className="featuresIntro">
-                <WaveTitle className="title" text="More    Projects" speed={150} />
-                    
-            </div>
-
+          <WaveTitle className="title" text="More    Projects" speed={150} />    
+      </div>
       <div className='featuresCard'>
-
         <div className="blenzCard">
           <div className="blenzInner"> 
             <div className="blenzBox">
@@ -187,7 +170,6 @@ function BlenzPage () {
           </div>
         </div>
       </div>
-      
     </section>
   );
 };
