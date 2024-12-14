@@ -23,12 +23,6 @@
     justify-content: center;
   }
 
-  .heroText {
-    position: relative;
-    /* bottom: 3rem; */
-    right: 1rem;
-    width: 50%
-  }
   
   .blenzHero img {
     width: 25%;
@@ -65,14 +59,16 @@
   }
   
   .blenzSection h3 {
+    font-size: 1.3rem;
     color: var(--black);
   }
 
   .blenzSection p {
+    font-size: 1.3rem;
     font-weight: bold;
   }
   .blenzSection .software {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
   
   hr {

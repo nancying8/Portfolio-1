@@ -16,8 +16,9 @@
 body {
   font-family: var(--text);
   overflow-x: hidden;
-  margin: 0;
-  background-color: #ebebf0  ;
+  margin: 0 auto;
+  background-color: var(--backgroundColour);
+  max-width: 85rem;
 }
 
 h1 {

@@ -43,19 +43,18 @@
   }
   
   .footer-intro img {
-    width: 40%;
-    margin-right: 0;
+    width: 10rem;
   }
   
   .footer-intro p {
     color: var(--darkPurple);
     font-weight: 800;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     display: contents;
   }
   
   .footer-icon {
-    margin-left: 5rem;
+    margin-left: 4rem;
     padding: 1rem;
     font-size: 2rem;
     color: var(--darkPurple);
