@@ -101,7 +101,7 @@ function VioletPage () {
             </div>
             <div className='blenzCard5'>
                 <h2>Closing Statement</h2>
-                <p>Redesigning this poster was a journey by ensuring every element communicates the essence of Blenz Coffee’s collaboration with Planet Bee. Each adjustment, from typography to imagery, was made with careful consideration of aesthetics, messaging, and audience appeal. The final design not only highlights the uniqueness of the seasonal offering but also strengthens the connection between the brand and its community.</p>
+                <p>Designing the logo and business card was a challenge since the requeriment was only using limit use and colour, so I decided to combine with different purple tone as result this design. It is combination of elegance and simple, and the user could understand that concept of cosmetic.</p>
             </div>
             <hr className='divider' />
             <div className="featuresIntro">
