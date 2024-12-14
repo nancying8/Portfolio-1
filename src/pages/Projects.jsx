@@ -1,5 +1,4 @@
-import React, {useState} from "react"; // Import React to use JSX
-import ProjectInfo from "../data/ProjectInfo.json"; // Importing project data from the JSON file
+import React  from "react"; // Import React to use JSX
 import ProjectCard from "../components/ProjectCard"; // Importing ProjectCard component to display individual project details
 import IonIcon from "@reacticons/ionicons"; // Importing IonIcon for arrow icons
 import WaveTitle from "../components/WaveTitle"; // Importing WaveTitle component for animated titles
@@ -13,8 +12,6 @@ function Projects () {
     // cardsData array each element into "card"
     // map > Displaying all the project cards dynamically 
     // the object "card" by adding proper properties from the projectInfo.json like (id, tittle, description...)
-
-    const [cardsData, setCardsData] = useState(ProjectInfo);
     
     return (
         <div>
@@ -28,17 +25,7 @@ function Projects () {
                     <IonIcon className="ion-arrow" name="chevron-down-outline"/>
                 </div>   
             <div className="card-container">
-                    {cardsData.map((card) => (
-                        <ProjectCard
-                        key={card.id}
-                        title={card.title}
-                        description={card.description}
-                        skills={card.skills}
-                        tools={card.tools}
-                        design={card.design}
-                        />
-
-                    ))}
+                    <ProjectCard />
             </div>
         </div>
     );

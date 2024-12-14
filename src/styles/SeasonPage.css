@@ -1,0 +1,80 @@
+:root {
+    --title: "Gentium Book Plus", serif;
+    --text: "Oxygen", serif;
+    --bold: 600;
+    --lightPurple:#8349a9;
+    --purple: #65268F;
+    --lilac: #c196de;
+    --darkPurple: #4b1271;
+    --black: #0e0220;
+    --radius: 1.25rem;
+    --boxShadow: -1px 15px 30px -12px #4b1271 ;
+    --border: solid 2px #65268F;
+    --backgroundColour: #edebf7;
+  }
+  
+  
+  /* blenzDetails-page */
+  
+  .violetHero {
+      margin: 3rem 2.5rem 2rem; 
+      display: flex;
+      justify-content: center;
+    }
+
+    .heroText {
+        position: relative;
+        /* bottom: 3rem; */
+        right: 1rem;
+        width: 50%
+      }
+      
+      .violetHero img {
+        width: 55%;
+        border: var(--border);
+        border-radius: var(--radius);
+        box-shadow: var(--boxShadow);
+      }
+      
+      .violetHero h1 {
+        color: var(--black);
+        font-size: 3.5rem;
+        margin-bottom: 0;
+      }
+    
+      .violetHero h2 {
+        font-size: 1.5rem;
+        color: var(--lightPurple);
+        
+      }
+      
+      .violetHero div {
+        margin-left: 3rem;
+      
+      }
+
+      .violetCard img {
+        position: relative;
+        left: 20%;
+        border-radius: var(--radius);
+        border: var(--border);
+        box-shadow: var(--boxShadow);
+        width: 60%;
+      }
+
+      .violeColor-2 p {
+        color: white;
+      }
+
+      .seaImg img {
+        width:auto;
+        margin: 2rem 0 2rem 0;
+
+      }
+      
+    .seaColor-1 { background-color: #5AC9E8; } /* Orange */
+    .seaColor-2 { background-color: #262262; } /* Green */
+    .seaColor-3 { background-color: #ffffff; } /* Blue */
+    .seaColor-4 { background-color: #BD202E; } /* Yellow */
+    .seaColor-5 { background-color: #FFC839; } /* Red */
+    .seaColor-6 { background-color: #006838; } /* Maroon */

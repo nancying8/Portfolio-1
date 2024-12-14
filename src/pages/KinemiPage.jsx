@@ -8,13 +8,12 @@ import { LuFigma } from "react-icons/lu";
 function KinemiPage () {
 
     const handleClick = () => {
-        window.scrollTo(0, 100);
+        window.scrollTo(0, 150);
       };
     
       return (
     
         <section>
-          
           <div className='kinHero'>
             <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1733994677/Screenshot_2024-12-12_at_1.10.58_AM_hdjsxp.png" alt="" />
             <div className='heroText'>
@@ -44,15 +43,12 @@ function KinemiPage () {
               <LuFigma className='software' />
             </div>
           </div>
-    
           <hr className='divider' />
-    
           <div className='kinCard1'>
               <h2>Description</h2>
             <div className='kinInfo' >
                 <div className='kinImg'>
-                      <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1733996324/logo-red--2_e7pggr.png" alt="blenzLogo" />
-                     
+                      <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1733996324/logo-red--2_e7pggr.png" alt="blenzLogo" />    
                 </div>
                   <p>Kinemi’s Kitchen, established in 2015, is a small family-owned restaurant located in the Champlain Heights neighbourhood of Vancouver. It is known for its fusion of Japanese and Italian cuisine. The restaurant has earned a reputation as “The Hidden Gem in Champlain Heights” among locals. </p>
               </div>
@@ -69,10 +65,7 @@ function KinemiPage () {
                 <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1733996629/Screenshot_2024-07-22_at_10.58.38_AM_wziaqy.png" alt="" />
               </div>
           </div>
-    
           <hr className='divider' />
-        
-    
             <div className='kinCard5'>
               <h2>User Persona</h2>
               <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1733996914/5_u0ht9l.png" alt="user persona" />
@@ -84,17 +77,17 @@ function KinemiPage () {
           </div>
           <hr className='divider' />
             <div className='kinCard5'>
-              <h2>User Persona</h2>
+              <h2>Empathy Map</h2>
               <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1733996916/9_yizr2d.png" alt="user persona" />
           </div>
           <hr className='divider' />
             <div className='kinCard5'>
-              <h2>User Persona</h2>
+              <h2>Journey Map</h2>
               <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1733996917/11_wjvsyx.png" alt="user persona" />
           </div>
           <hr className='divider' />
             <div className='kinCard5'>
-              <h2>User Flow</h2>
+              <h2>Flow Chart</h2>
               <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1733996919/13_ngvgb5.png" alt="user persona" />
           </div>
           
@@ -102,14 +95,14 @@ function KinemiPage () {
     
             <div className='kinCard5'>
               <h2>Low Fidelity Wireframe</h2>
-              <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1733997207/Group_62_cqrv0u.png" alt="user persona" />
+              <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1733997207/Group_62_cqrv0u.png" alt="low fidelity" />
           </div>
 
           <hr className='divider' />
     
             <div className='kinCard5'>
               <h2>High Fidelity Wireframe</h2>
-              <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1733997399/Group_60_1_yvc1um.png" alt="user persona" />
+              <img src="https://res.cloudinary.com/du7l1kfwn/image/upload/v1733997399/Group_60_1_yvc1um.png" alt="high fidelity" />
           </div>
 
           <hr className='divider' />
