@@ -7,7 +7,7 @@ import "../styles/Footer.css";
 function Footer () {
 
     const handleClick = () => {
-        window.scrollTo(0, 0);
+        window.scrollTo(0, -10);
       };
      
     return (
